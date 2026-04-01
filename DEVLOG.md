@@ -1,36 +1,125 @@
-# Dev Log
+# Dev Log — Marvel Hero Cards
+
+---
 
 ## Entry 001 — April 1, 2026
 **Time Spent:** 1.5 hours
-**Goal:** Set up dev environment and project structure
+**Session Type:** Setup
+**Branch:** main
 
-### What I Tried
-- Set up Homebrew, Node.js, Git, VS Code from scratch
-- Created portfolio template repo with learning framework
-- Initialized Project 1 from template
+### What did I try to do today?
+Set up my entire dev environment and create the project structure from scratch.
 
-### What I Learned
-- git add . stages everything vs git add [file] for specific files
-- .gitignore prevents sensitive files from being committed
-- The staging area sits between working files and Git history
-- brew install --cask is for GUI Mac apps vs regular CLI tools
-- Every commit gets a unique hash (fingerprint)
-- Always check which folder VS Code has open in the sidebar
-- User settings in VS Code apply globally across all projects
-- settings.json is portable and can restore your environment instantly
+### What actually worked?
+- Homebrew, Node.js, Git, VS Code all installed successfully
+- Portfolio template repo created and pushed to GitHub
+- marvel-hero-cards repo initialized and pushed to GitHub
+- VS Code settings configured professionally
 
-### Mistakes I Made
+### What broke or confused me?
 - Opened VS Code in portfolio-template instead of marvel-hero-cards
 - Tried to commit DEVLOG.md with lowercase filename (devlog.md)
-- Edited DEVLOG in the wrong project folder
+- git push failed because remote wasn't configured yet
 
-### AI Usage
-- Used Claude to guide environment setup step by step
-- All commands typed and run by me manually
-- Claude explained what each tool does before installing
-- Claude merged my existing settings.json instead of overwriting it
+### What did I Google or ask Claude about?
+- What each dev tool does and why I need it
+- Difference between git add . and git add [filename]
+- What .gitignore does and why API keys must never be committed
+- How settings.json works in VS Code
+- User vs Workspace settings level
 
-### Next Session
+### What am I doing next time?
 - Get Marvel API key from developer.marvel.com
-- Understand how Marvel API authentication works
-- Write first HTML/CSS structure for hero cards
+- Learn how Marvel API MD5 authentication works
+- Create first feature branch
+- Build index.html skeleton
+- Make first API call
+
+---
+
+## Entry 002 — [Date]
+**Time Spent:**
+**Session Type:** 
+**Branch:**
+
+### What did I try to do today?
+
+
+### What actually worked?
+
+
+### What broke or confused me?
+
+
+### What did I Google or ask Claude about?
+
+
+### What am I doing next time?
+
+---
+
+## Entry 003 — [Date]
+**Time Spent:**
+**Session Type:**
+**Branch:**
+
+### What did I try to do today?
+
+
+### What actually worked?
+
+
+### What broke or confused me?
+
+
+### What did I Google or ask Claude about?
+
+
+### What am I doing next time?
+
+---
+
+## Entry 004 — [Date]
+**Time Spent:**
+**Session Type:**
+**Branch:**
+
+### What did I try to do today?
+
+
+### What actually worked?
+
+
+### What broke or confused me?
+
+
+### What did I Google or ask Claude about?
+
+
+### What am I doing next time?
+
+---
+
+## Entry 005 — [Date]
+**Time Spent:**
+**Session Type:**
+**Branch:**
+
+### What did I try to do today?
+
+
+### What actually worked?
+
+
+### What broke or confused me?
+
+
+### What did I Google or ask Claude about?
+
+
+### What am I doing next time?
+
+---
+```
+
+---
