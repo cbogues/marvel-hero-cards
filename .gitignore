@@ -1,0 +1,22 @@
+# Environment variables - NEVER commit these
+.env
+.env.local
+.env.development
+.env.production
+
+# Node dependencies - too large to commit
+node_modules/
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
