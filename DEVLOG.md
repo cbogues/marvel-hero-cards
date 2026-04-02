@@ -37,25 +37,27 @@ Set up my entire dev environment and create the project structure from scratch.
 
 ---
 
-## Entry 002 — [Date]
-**Time Spent:**
-**Session Type:** 
-**Branch:**
+## Entry 002 — [4/1/26]
+
 
 ### What did I try to do today?
 
 
 ### What actually worked?
+SuperHero API token acquired
 
 
 ### What broke or confused me?
-
+Marvel API  was shutdown 
 
 ### What did I Google or ask Claude about?
-
+alternative to Marvel API
 
 ### What am I doing next time?
-
+Build index.html skeleton
+⬜ Build styles.css base
+⬜ Make first API call
+⬜ Display hero card in browser
 ---
 
 ## Entry 003 — [Date]
