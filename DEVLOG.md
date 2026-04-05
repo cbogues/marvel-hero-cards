@@ -41,23 +41,29 @@ Set up my entire dev environment and create the project structure from scratch.
 
 
 ### What did I try to do today?
+Find a replacement for the Marvel API after discovering it was shut down.
 
 
 ### What actually worked?
-SuperHero API token acquired
+- Found SuperHero API as a replacement
+- Signed in with GitHub and got my access token
+- Learned it covers both Marvel and DC characters
 
 
 ### What broke or confused me?
-Marvel API  was shutdown 
+- Marvel API was permanently shut down in October 2025
+- Had to research alternatives mid-session
 
 ### What did I Google or ask Claude about?
-alternative to Marvel API
+- Marvel API alternatives 2026
+- SuperHero API documentation
 
 ### What am I doing next time?
-Build index.html skeleton
-⬜ Build styles.css base
-⬜ Make first API call
-⬜ Display hero card in browser
+- Create feat/html-structure branch
+- Build index.html skeleton
+- Build styles.css base
+- Make first API call
+- Display hero card in browser
 ---
 
 ## Entry 003 — [Date]
