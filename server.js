@@ -29,6 +29,11 @@ app.get("/api/hero/:name", async (req, res) => {
   try {
     const response = await fetch(
       `https://superheroapi.com/api/${token}/search/${heroName}`,
+      {
+        headers: {
+          Referer: "https://superheroapi.com",
+        },
+      },
     );
     const data = await response.json();
     res.json(data);

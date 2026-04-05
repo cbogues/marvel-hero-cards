@@ -56,9 +56,11 @@ function resetUI() {
 
 function displayHero(hero) {
   // Fill in the hero image
-  heroImage.src = hero.image.url;
   heroImage.alt = hero.name;
-
+  heroImage.src = hero.image.url;
+  heroImage.onerror = function () {
+    heroImage.src = `https://ui-avatars.com/api/?name=${hero.name}&size=200&background=e23636&color=fff&bold=true`;
+  };
   // Fill in the hero text info
   heroName.textContent = hero.name;
   heroFullname.textContent = hero.biography["full-name"] || "Unknown";
