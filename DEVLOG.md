@@ -66,21 +66,29 @@ Find a replacement for the Marvel API after discovering it was shut down.
 - Display hero card in browser
 ---
 
-## Entry 003 — [Date]
-**Time Spent:**
+## Entry 003 — [4/4/26]
+**1 hour:**
 **Session Type:**
 **Branch:**
 
 ### What did I try to do today?
-
+Created first feature branches
+Built HTML structure and CSS styling
+Discovered CORS issue with direct API calls
+Built Express proxy server to fix it
+Debugged node-fetch incompatibility with Node 25
+Added graceful fallback avatar for missing images
+Created first Pull Request and merged to main
 
 ### What actually worked?
-
+fallback avatars for characters and powers
 
 ### What broke or confused me?
+Couldn't get character images
 
 
 ### What did I Google or ask Claude about?
+How to build and express proxy server
 
 
 ### What am I doing next time?
