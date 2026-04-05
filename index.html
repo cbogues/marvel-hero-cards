@@ -30,8 +30,44 @@
           <p id="hero-publisher">Publisher</p>
 
           <!-- Power Stats -->
+          <div class="power-stats">
+            <h3>Power Stats</h3>
+            <div class="stat">
+              <span>Intelligence</span>
+              <div class="stat-bar">
+                <div id="stat-intelligence" class="stat-fill"></div>
+              </div>
+            </div>
+            <div class="stat">
+              <span>Strength</span>
+              <div class="stat-bar">
+                <div id="stat-strength" class="stat-fill"></div>
+              </div>
+            </div>
+            <div class="stat">
+              <span>Speed</span>
+              <div class="stat-bar">
+                <div id="stat-speed" class="stat-fill"></div>
+              </div>
+            </div>
+            <div class="stat">
+              <span>Combat</span>
+              <div class="stat-bar">
+                <div id="stat-combat" class="stat-fill"></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+
+      <!-- Error Message -->
+      <p id="error-message" class="hidden">Hero not found. Try another name.</p>
+
+      <!-- Loading State -->
+      <p id="loading" class="hidden">Searching...</p>
     </section>
+
+    <!-- This loads your JavaScript file -->
+    <script src="app.js"></script>
   </body>
 </html>

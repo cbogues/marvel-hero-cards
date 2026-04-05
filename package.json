@@ -1,0 +1,29 @@
+{
+  "name": "marvel-hero-cards",
+  "version": "1.0.0",
+  "description": "The official Marvel Developer API was shut down in October 2025. This project uses SuperHero API as an alternative, demonstrating the ability to adapt when third-party services become unavailableg",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cbogues/marvel-hero-cards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/cbogues/marvel-hero-cards/issues"
+  },
+  "homepage": "https://github.com/cbogues/marvel-hero-cards#readme",
+  "dependencies": {
+    "dotenv": "^17.4.0",
+    "express": "^5.2.1",
+    "node-fetch": "^3.3.2"
+  }
+}
