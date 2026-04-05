@@ -1,0 +1,203 @@
+/* ================================
+   BASE RESET & VARIABLES
+   ================================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --red: #e23636;
+  --dark: #151515;
+  --darker: #0a0a0a;
+  --card-bg: #1e1e1e;
+  --text-primary: #ffffff;
+  --text-secondary: #aaaaaa;
+  --border: #333333;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+/* ================================
+   HEADER
+   ================================ */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: var(--red);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+header p {
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+/* ================================
+   SEARCH SECTION
+   ================================ */
+.search-section {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#hero-search {
+  padding: 0.75rem 1.25rem;
+  width: 300px;
+  border: 2px solid var(--border);
+  border-radius: 8px;
+  background-color: var(--card-bg);
+  color: var(--text-primary);
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+#hero-search:focus {
+  border-color: var(--red);
+}
+
+#search-btn {
+  padding: 0.75rem 1.5rem;
+  background-color: var(--red);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+#search-btn:hover {
+  opacity: 0.85;
+}
+
+/* ================================
+   HERO CARD
+   ================================ */
+.card-section {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-card {
+  display: flex;
+  gap: 2rem;
+  background-color: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 2rem;
+  max-width: 700px;
+  width: 100%;
+}
+
+.hero-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid var(--red);
+  flex-shrink: 0;
+}
+
+/* ================================
+   HERO INFO
+   ================================ */
+.hero-info {
+  flex: 1;
+}
+
+#hero-name {
+  font-size: 1.75rem;
+  color: var(--red);
+  margin-bottom: 0.25rem;
+}
+
+#hero-fullname {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+#hero-publisher {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ================================
+   POWER STATS
+   ================================ */
+.power-stats h3 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+}
+
+.stat span {
+  font-size: 0.8rem;
+  width: 90px;
+  color: var(--text-secondary);
+  flex-shrink: 0;
+}
+
+.stat-bar {
+  flex: 1;
+  height: 8px;
+  background-color: var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.stat-fill {
+  height: 100%;
+  background-color: var(--red);
+  border-radius: 4px;
+  width: 0%;
+  transition: width 0.6s ease;
+}
+
+/* ================================
+   UTILITY
+   ================================ */
+.hidden {
+  display: none;
+}
+
+#error-message {
+  color: var(--red);
+  text-align: center;
+  font-size: 1rem;
+}
+
+#loading {
+  color: var(--text-secondary);
+  text-align: center;
+  font-size: 1rem;
+}
